@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ToDo List</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+	<style>
+	#updatebtn, #cancelbtn
+	{
+		display: none;
+	}
+	.activebutton
+	{
+		display:inline-block !important;
+	}
+	.hidebutton
+	{
+		display:none;
+	}	
+		
+	</style>
+</head>
+<body>
+	<div class="row" id="userFrom">
+		<input type="text" id="name">
+		<button id="addbtn"> Add User</button>
+		<button id="updatebtn"> Update</button>
+		<button id="cancelbtn"> Cancel</button>
+	</div>
+	<div id="user-list-section">
+	</div>
+<script src="main.js"></script>
+</body>
+</html>
